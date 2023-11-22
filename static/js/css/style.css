@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 1em 5%;
+}
+
+form{
+    display: inline-block;
+}
+
+input{
+    margin-bottom: 0.5em;
+}
+
+ul{
+    display: inline-block;
+    gap: 0.5em;
+}
+
+li{
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 0.5em 1em;
+    margin-bottom: 0.5em;
+    width: auto;
+    list-style-type: none;
+    background-color: rgb(173, 214, 218);
+}
+
+

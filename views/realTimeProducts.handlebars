@@ -1,0 +1,44 @@
+<h1>Products</h1>
+<ul id="ulProducts"></ul>
+
+<h1>Product Register</h1>
+<form id="productForm">
+    <div>
+        <label for="inputTitle">Title:</label>
+        <input type="text" name="title" id="inputTitle">
+    </div>
+    
+    <div>
+        <label for="inputDescription">Description:</label>
+        <input type="text" name="description" id="inputDescription">
+    </div>
+
+    <div>  
+        <label for="inputCode">Code:</label>
+        <input type="text" name="code" id="inputCode">
+    </div>
+    <div>
+        <label for="inputPrice">Price:</label>
+        <input type="text" name="price" id="inputPrice">
+    </div>
+
+    <div>
+        <label for="inputStock">Stock:</label>
+        <input type="text" name="stcok" id="inputStock">
+    </div>
+
+    <div>
+        <label for="inputCategory">Category:</label>
+        <input type="text" name="category" id="inputCategory">
+    </div>
+    
+    <div>
+        <label for="inputThumbnail">Thumbnail:</label>
+        <input type="text" name="thumbnail" id="inputThumbnail">
+    </div>
+
+    <button type="submit">Registrar producto</button>
+</form>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/static/js/chat.client.js"></script>
